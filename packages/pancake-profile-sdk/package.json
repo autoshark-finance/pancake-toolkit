@@ -7,7 +7,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
+    "directory": "packages/profile-sdk",
     "url": "https://github.com/autoshark-finance/pancake-toolkit"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
