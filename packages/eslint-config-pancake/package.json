@@ -6,7 +6,10 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autoshark-finance/pancake-toolkit/tree/master/packages/eslint-config-pancake"
+  },
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,
