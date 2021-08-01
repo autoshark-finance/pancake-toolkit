@@ -5,6 +5,10 @@
   "type": "module",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autoshark-finance/pancake-toolkit"
+  },
   "scripts": {
     "build": "rm -rf ./dist && rollup -c",
     "checksum:pcs-default": "yarn build && node ./dist checksum pancakeswap-default",
