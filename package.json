@@ -1,5 +1,5 @@
 {
-  "name": "pancake-toolkit",
+  "name": "@autoshark-finance/toolkit",
   "version": "1.0.0",
   "description": "Pancake frontend packages",
   "private": true,
