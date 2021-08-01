@@ -10,7 +10,11 @@
   ],
   "repository": {
     "type": "git",
+    "directory": "packages/pancake-uikit",
     "url": "https://github.com/autoshark-finance/pancake-toolkit"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "license": "MIT",
   "scripts": {
