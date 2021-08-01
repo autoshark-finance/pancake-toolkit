@@ -5,7 +5,10 @@
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/autoshark-finance/pancake-toolkit"
+  },
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "start": "yarn build && node ./dist",
