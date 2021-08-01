@@ -8,7 +8,11 @@
   ],
   "repository": {
     "type": "git",
+    "directory": "packages/eslint-config-pancake",
     "url": "https://github.com/autoshark-finance/pancake-toolkit"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "license": "MIT",
   "author": "RabbitDoge",
