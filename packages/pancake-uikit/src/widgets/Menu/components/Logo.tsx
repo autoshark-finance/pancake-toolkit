@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components";
 import { Link } from "react-router-dom";
 import { LogoIcon } from "../../../components/Svg";
 import Flex from "../../../components/Box/Flex";
-import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "../icons";
+import { HamburgerIcon, HamburgerCloseIcon } from "../icons";
 import MenuButton from "./MenuButton";
 
 interface Props {
@@ -23,12 +23,9 @@ const StyledLink = styled(Link)`
   align-items: center;
   .mobile-icon {
     width: 32px;
-    ${({ theme }) => theme.mediaQueries.nav} {
-      display: none;
-    }
   }
-  .desktop-icon {
-    width: 160px;
+  .logo-text {
+    padding-left: 10px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
@@ -48,12 +45,14 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
+const Logo: React.FC<Props> = ({ isPushed, togglePush,  href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
       <LogoIcon className="mobile-icon" />
-      <LogoWithText className="desktop-icon" isDark={isDark} />
+      <div className="logo-text">
+        AutoShark
+      </div>
     </>
   );
 
