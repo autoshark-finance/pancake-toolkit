@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.8 (2021-08-02)
+
+
+### Features
+
+* new logo ([b5e0fd0](https://github.com/autoshark-finance/pancake-toolkit/commit/b5e0fd03700ac4be0bf6d82da9fa3a54c2f3ea44))
+
+
+
+
+
 ## 1.2.7 (2021-08-01)
 
 **Note:** Version bump only for package @autoshark-finance/eslint-config-pancake
