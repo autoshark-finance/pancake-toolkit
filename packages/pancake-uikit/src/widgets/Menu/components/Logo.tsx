@@ -25,6 +25,7 @@ const StyledLink = styled(Link)`
     width: 32px;
   }
   .logo-text {
+    color: #fff;
     padding-left: 10px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
@@ -66,11 +67,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush,  href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="AutoShark home page">
+        <StyledLink as="a" href={href} aria-label="AutoShark Home Page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="AutoShark home page">
+        <StyledLink to={href} aria-label="AutoShark Home Page">
           {innerLogo}
         </StyledLink>
       )}
