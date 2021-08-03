@@ -16,7 +16,7 @@ it("renders correctly", () => {
     .c1 {
       font-size: 20px;
       font-weight: 600;
-      line-height: 1.1;
+      line-height: 1.4;
     }
 
     @media screen and (min-width:968px) {

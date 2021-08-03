@@ -58,7 +58,7 @@ it("renders ConnectModal correctly", () => {
     .c6 {
       font-size: 20px;
       font-weight: 600;
-      line-height: 1.1;
+      line-height: 1.4;
     }
 
     .c7 {
