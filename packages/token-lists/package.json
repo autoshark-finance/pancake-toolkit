@@ -1,6 +1,6 @@
 {
   "name": "@autoshark-finance/token-lists",
-  "version": "2.17.25",
+  "version": "2.17.26",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",

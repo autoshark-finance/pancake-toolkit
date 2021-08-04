@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.42.18 (2021-08-04)
+
+
+### Features
+
+* attempt wave icon ([6e93ff2](https://github.com/autoshark-finance/pancake-toolkit/commit/6e93ff2f73b669222267e353a0145d55a6c8db01))
+
+
+
+
+
 ## 0.42.17 (2021-08-04)
 
 
