@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.17.29 (2021-08-04)
+
+
+### Bug Fixes
+
+* wave icon style ([20029ff](https://github.com/autoshark-finance/pancake-toolkit/commit/20029ff5565f584b01581649e0215d465ea7446a))
+
+
+
+
+
 ## 2.17.28 (2021-08-04)
 
 **Note:** Version bump only for package @autoshark-finance/token-lists

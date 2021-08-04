@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.20 (2021-08-04)
+
+
+### Bug Fixes
+
+* wave icon style ([20029ff](https://github.com/autoshark-finance/pancake-toolkit/commit/20029ff5565f584b01581649e0215d465ea7446a))
+
+
+
+
+
 ## 0.3.19 (2021-08-04)
 
 **Note:** Version bump only for package @autoshark-finance/profile-sdk
