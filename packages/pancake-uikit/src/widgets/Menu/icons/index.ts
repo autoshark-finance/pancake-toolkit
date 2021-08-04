@@ -4,7 +4,6 @@ export { default as HamburgerIcon } from "./Hamburger";
 export { default as HamburgerCloseIcon } from "./HamburgerClose";
 export { default as HomeIcon } from "./Home";
 export { default as PlantIcon } from "./Plant";
-export { default as WaveIcon } from "./Wave";
 export { default as IfoIcon } from "./Ifo";
 export { default as InfoIcon } from "./Info";
 export { default as LogoIcon } from "./Logo";
