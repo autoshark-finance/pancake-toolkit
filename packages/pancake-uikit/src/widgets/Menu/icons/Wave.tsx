@@ -1,11 +1,12 @@
 import React from "react";
+import styled from "styled-components";
 import Svg from "../../../components/Svg/Svg";
 import { SvgProps } from "../../../components/Svg/types";
-import styled from "styled-components";
 
 const SvgDiv = styled.div`
   width: 24px;
   height: 24px;
+  margin-right: 8px;
 `;
 
 const Icon: React.FC<SvgProps> = (props) => {
