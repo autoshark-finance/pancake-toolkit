@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.17.31 (2021-08-05)
+
+
+### Features
+
+* rocket and vault svgs ([522fccd](https://github.com/autoshark-finance/pancake-toolkit/commit/522fccd6fde5b303d86546487e66293291c81595))
+
+
+
+
+
 ## 2.17.30 (2021-08-04)
 
 **Note:** Version bump only for package @autoshark-finance/token-lists
