@@ -12,7 +12,7 @@ const SvgDiv = styled.div`
 const Icon: React.FC<SvgProps> = (props) => {
   return (
     <SvgDiv>
-      <Svg width="20" height="20" x="0" y="0" viewBox="0 0 478.08 478.08" {...props}>
+      <Svg x="0" y="0" viewBox="0 0 478.08 478.08" {...props} width="200" height="200">
         <g>
           <rect id="Rectangle-path" height="8" rx="1" width="4" x="42" y="31"/>
           <rect id="Rectangle-path" height="8" rx="1" width="4" x="42" y="11"/>
