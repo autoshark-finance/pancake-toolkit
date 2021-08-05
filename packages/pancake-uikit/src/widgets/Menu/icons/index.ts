@@ -3,6 +3,8 @@ export { default as GroupsIcon } from "./Groups";
 export { default as HamburgerIcon } from "./Hamburger";
 export { default as HamburgerCloseIcon } from "./HamburgerClose";
 export { default as HomeIcon } from "./Home";
+export { default as RocketIcon } from "./Rocket";
+export { default as VaultIcon } from "./Vault";
 export { default as WaveIcon } from "./Wave";
 export { default as PlantIcon } from "./Plant";
 export { default as IfoIcon } from "./Ifo";
