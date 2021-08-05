@@ -119,21 +119,21 @@ export const links = [
     label: "More",
     icon: "MoreIcon",
     items: [
-      {
-        label: "Voting",
-        href: "https://voting.pancakeswap.finance",
-      },
+      // {
+      //   label: "Voting",
+      //   href: "https://voting.pancakeswap.finance",
+      // },
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/autoshark-finance/",
       },
       {
         label: "Docs",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://autosharkgw.gitbook.io/autoshark/",
       },
       {
         label: "Blog",
-        href: "https://pancakeswap.medium.com",
+        href: "https://authorshark.medium.com/",
       },
     ],
   },
@@ -145,63 +145,67 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
-        href: "https://t.me/pancakeswap",
-      },
-      {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
-      },
-      {
-        label: "中文",
-        href: "https://t.me/PancakeSwap_CN",
-      },
-      {
-        label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
-      },
-      {
-        label: "Italiano",
-        href: "https://t.me/pancakeswap_ita",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/pancakeswap_ru",
-      },
-      {
-        label: "Türkiye",
-        href: "https://t.me/pancakeswapturkiye",
-      },
-      {
-        label: "Português",
-        href: "https://t.me/PancakeSwapPortuguese",
-      },
-      {
-        label: "Español",
-        href: "https://t.me/PancakeswapEs",
-      },
-      {
-        label: "日本語",
-        href: "https://t.me/pancakeswapjp",
-      },
-      {
-        label: "Français",
-        href: "https://t.me/pancakeswapfr",
-      },
-      {
         label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
+        href: "https://t.me/AutoSharkAnn",
       },
       {
-        label: "Whale Alert",
-        href: "https://t.me/PancakeSwapWhales",
+        label: "English",
+        href: "https://t.me/AutoSharkFinance",
       },
+      // {
+      //   label: "Bahasa Indonesia",
+      //   href: "https://t.me/PancakeSwapIndonesia",
+      // },
+      // {
+      //   label: "中文",
+      //   href: "https://t.me/PancakeSwap_CN",
+      // },
+      // {
+      //   label: "Tiếng Việt",
+      //   href: "https://t.me/PancakeSwapVN",
+      // },
+      // {
+      //   label: "Italiano",
+      //   href: "https://t.me/pancakeswap_ita",
+      // },
+      // {
+      //   label: "русский",
+      //   href: "https://t.me/pancakeswap_ru",
+      // },
+      // {
+      //   label: "Türkiye",
+      //   href: "https://t.me/pancakeswapturkiye",
+      // },
+      // {
+      //   label: "Português",
+      //   href: "https://t.me/PancakeSwapPortuguese",
+      // },
+      // {
+      //   label: "Español",
+      //   href: "https://t.me/PancakeswapEs",
+      // },
+      // {
+      //   label: "日本語",
+      //   href: "https://t.me/pancakeswapjp",
+      // },
+      // {
+      //   label: "Français",
+      //   href: "https://t.me/pancakeswapfr",
+      // },
+      // {
+      //   label: "Announcements",
+      //   href: "https://t.me/PancakeSwapAnn",
+      // },
+      // {
+      //   label: "Whale Alert",
+      //   href: "https://t.me/PancakeSwapWhales",
+      // },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/AutoSharkFin",
   },
 ];
 
