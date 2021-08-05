@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.24 (2021-08-05)
+
+
+### Bug Fixes
+
+* vault svg ([d177db8](https://github.com/autoshark-finance/pancake-toolkit/commit/d177db842575c01d339ebf7de64ea9b7261a86d3))
+
+
+
+
+
 ## 1.2.23 (2021-08-05)
 
 **Note:** Version bump only for package @autoshark-finance/eslint-config-pancake
