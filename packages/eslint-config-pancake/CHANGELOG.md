@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.28 (2021-08-06)
+
+
+### Features
+
+* nft and dice icons ([05f2e83](https://github.com/autoshark-finance/pancake-toolkit/commit/05f2e834c58cc96c4718090a6ff0502877ea3532))
+
+
+
+
+
 ## 1.2.27 (2021-08-06)
 
 **Note:** Version bump only for package @autoshark-finance/eslint-config-pancake
