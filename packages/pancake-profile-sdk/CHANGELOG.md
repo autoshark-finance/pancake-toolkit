@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.30 (2021-08-07)
+
+
+### Bug Fixes
+
+* responsiveness issues ([64db1df](https://github.com/autoshark-finance/pancake-toolkit/commit/64db1df936d8c5c1a994635f36f7556a2b2c5d3d))
+
+
+
+
+
 ## 0.3.29 (2021-08-06)
 
 
