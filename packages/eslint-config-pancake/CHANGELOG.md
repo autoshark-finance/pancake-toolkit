@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.31 (2021-08-07)
+
+
+### Features
+
+* xxl media query ([6af2dbe](https://github.com/autoshark-finance/pancake-toolkit/commit/6af2dbeba918a9f207be4a7d2aac291dc4cb5596))
+
+
+
+
+
 ## 1.2.30 (2021-08-07)
 
 
