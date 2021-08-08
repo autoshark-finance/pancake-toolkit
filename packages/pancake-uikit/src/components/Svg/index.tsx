@@ -101,4 +101,14 @@ export { default as WalletIcon } from "./Icons/Wallet";
 export { default as WalletFilledIcon } from "./Icons/WalletFilled";
 export { default as WaitIcon } from "./Icons/Wait";
 export { default as Svg } from "./Svg";
+
+// from menu
+export { default as NftMasksIcon } from "../../widgets/Menu/icons/ArtMasks";
+export { default as NftPaintingIcon } from "../../widgets/Menu/icons/ArtPainting";
+export { default as DiceIcon } from "../../widgets/Menu/icons/Dice";
+export { default as PlantIcon } from "../../widgets/Menu/icons/Plant";
+export { default as RocketIcon } from "../../widgets/Menu/icons/Rocket";
+export { default as VaultIcon } from "../../widgets/Menu/icons/Vault";
+export { default as WaveIcon } from "../../widgets/Menu/icons/Wave";
+
 export type { SvgProps } from "./types";
