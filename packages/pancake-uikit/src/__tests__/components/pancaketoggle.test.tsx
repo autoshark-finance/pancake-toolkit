@@ -105,7 +105,7 @@ it("renders correctly", () => {
     }
 
     .c1:focus + label {
-      box-shadow: 0px 0px 0px 1px #7645D9,0px 0px 0px 4px rgba(118,69,217,0.6);
+      box-shadow: 0px 0px 0px 1px #d84165, 0px 0px 0px 4px rgba(216, 65, 10, 0.6);
     }
 
     .c1:checked + label .pancakes {
@@ -300,7 +300,7 @@ it("renders correctly scale sm", () => {
     }
 
     .c1:focus + label {
-      box-shadow: 0px 0px 0px 1px #7645D9,0px 0px 0px 4px rgba(118,69,217,0.6);
+      box-shadow: 0px 0px 0px 1px #d84165, 0px 0px 0px 4px rgba(216, 65, 10, 0.6);
     }
 
     .c1:checked + label .pancakes {
