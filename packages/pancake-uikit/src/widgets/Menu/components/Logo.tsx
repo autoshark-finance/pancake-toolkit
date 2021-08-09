@@ -1,12 +1,13 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Link } from "react-router-dom";
-import { LogoIcon } from "../../../components/Svg";
+// import { LogoIcon } from "../../../components/Svg";
 import Flex from "../../../components/Box/Flex";
 import { HamburgerIcon, HamburgerCloseIcon } from "../icons";
 import MenuButton from "./MenuButton";
 
 interface Props {
+  logoSrc: string;
   isPushed: boolean;
   isDark: boolean;
   togglePush: () => void;
@@ -46,11 +47,11 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const Logo: React.FC<Props> = ({ isPushed, togglePush,  href }) => {
+const Logo: React.FC<Props> = ({ logoSrc, isPushed, togglePush,  href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
+      <img className="mobile-icon" src={logoSrc} alt="logo" />
       <div className="logo-text">
         AutoShark
       </div>

@@ -49,5 +49,6 @@ export interface PanelProps {
 }
 
 export interface NavProps extends PanelProps {
+  logoSrc: string;
   userMenu?: ReactElement;
 }
