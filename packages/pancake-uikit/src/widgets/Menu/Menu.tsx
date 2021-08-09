@@ -69,8 +69,8 @@ const Menu: React.FC<NavProps> = ({
   links,
   children,
 }) => {
-  const { isXl } = useMatchBreakpoints();
-  const isMobile = isXl === false;
+  const { isXs, isSm } = useMatchBreakpoints()
+  const isMobile = isXs || isSm
   const [isPushed, setIsPushed] = useState(!isMobile);
   const [showMenu, setShowMenu] = useState(true);
   const refPrevOffset = useRef(window.pageYOffset);
