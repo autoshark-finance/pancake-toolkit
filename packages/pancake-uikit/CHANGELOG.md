@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.42.38 (2021-08-10)
+
+
+### Bug Fixes
+
+* attempt fix for butt image ([200d916](https://github.com/autoshark-finance/pancake-toolkit/commit/200d91697804d4d9ebc78b9b712bb020a59f9896))
+
+
+
+
+
 ## 0.42.37 (2021-08-09)
 
 **Note:** Version bump only for package @autoshark-finance/uikit
