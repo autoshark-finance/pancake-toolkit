@@ -44,6 +44,10 @@ const getBaseThumbStyles = ({ imgSrc, disabled }: StyledInputProps) => `
   }
 `;
 
+const getbuttImage = ( { imgSrc }: DisabledImageProp) => `
+  url(${imgSrc}) no-repeat
+`
+
 export const SliderLabelContainer = styled.div`
   bottom: 0;
   position: absolute;
@@ -61,7 +65,7 @@ export const SliderLabel = styled(Text)<SliderLabelProps>`
 `;
 
 export const BunnyButt = styled.div<DisabledImageProp>`
-  background: url(${imgSrc}) no-repeat;
+  background: ${getbuttImage};
   height: 32px;
   filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
   position: absolute;
