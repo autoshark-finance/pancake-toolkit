@@ -71,8 +71,8 @@ const Menu: React.FC<NavProps> = ({
   links,
   children,
 }) => {
-  const { isXs, isSm } = useMatchBreakpoints()
-  const isMobile = isXs || isSm
+  const { isXs, isSm } = useMatchBreakpoints();
+  const isMobile = isXs || isSm;
   const [isPushed, setIsPushed] = useState(!isMobile);
   const [showMenu, setShowMenu] = useState(true);
   const refPrevOffset = useRef(window.pageYOffset);
@@ -119,7 +119,9 @@ const Menu: React.FC<NavProps> = ({
           isDark={isDark}
           href={homeLink?.href ?? "/"}
         />
-        {chainToggler} {userMenu}
+        <div>
+          {chainToggler} {userMenu}
+        </div>
       </StyledNav>
       <BodyWrapper>
         <Panel
