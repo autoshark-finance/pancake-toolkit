@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.17.55 (2021-08-11)
+
+
+### Features
+
+* add chain toggler ([015d80c](https://github.com/autoshark-finance/pancake-toolkit/commit/015d80ccb2be0df53687bb5bc19aee31a54cf5a5))
+
+
+
+
+
 ## 2.17.54 (2021-08-11)
 
 **Note:** Version bump only for package @autoshark-finance/token-lists
