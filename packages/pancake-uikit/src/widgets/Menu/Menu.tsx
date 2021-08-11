@@ -60,6 +60,7 @@ const MobileOnlyOverlay = styled(Overlay)`
 
 const Menu: React.FC<NavProps> = ({
   logoSrc,
+  chainToggler,
   userMenu,
   isDark,
   toggleTheme,
@@ -118,7 +119,7 @@ const Menu: React.FC<NavProps> = ({
           isDark={isDark}
           href={homeLink?.href ?? "/"}
         />
-        {userMenu}
+        {chainToggler} {userMenu}
       </StyledNav>
       <BodyWrapper>
         <Panel
