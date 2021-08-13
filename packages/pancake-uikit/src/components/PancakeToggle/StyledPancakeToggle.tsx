@@ -96,7 +96,7 @@ export const PancakeInput = styled.input<InputProps>`
   }
 
   &:checked + label .pancake:nth-child(1) {
-    background: #e27c31;
+    background: ${({ theme }) => theme.colors.primary};
     box-shadow: none;
     transition-delay: 0.2s;
   }
