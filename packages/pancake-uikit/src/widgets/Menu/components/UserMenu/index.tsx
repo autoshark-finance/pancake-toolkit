@@ -30,7 +30,7 @@ const LabelText = styled.div`
   display: none;
   font-weight: 600;
 
-  ${({ theme }) => theme.mediaQueries.sm} {
+  ${({ theme }) => theme.mediaQueries.md} {
     display: block;
     margin-left: 8px;
     margin-right: 4px;
