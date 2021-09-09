@@ -7,7 +7,7 @@ import { PanelProps, PushedProps } from "../types";
 import CakePrice from "./CakePrice";
 // import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
-// import LangSelector from "./LangSelector";
+import LangSelector from "./LangSelector";
 
 interface Props extends PanelProps, PushedProps {}
 
@@ -18,13 +18,13 @@ const Container = styled.div`
   border-top: solid 2px rgba(133, 133, 133, 0.1);
 `;
 
-// const SettingsEntry = styled.div`
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   height: ${MENU_ENTRY_HEIGHT}px;
-//   padding: 0 8px;
-// `;
+const SettingsEntry = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: ${MENU_ENTRY_HEIGHT}px;
+  padding: 0 8px;
+`;
 
 const SocialEntry = styled.div`
   display: flex;
@@ -40,9 +40,9 @@ const PanelFooter: React.FC<Props> = ({
   // toggleTheme,
   // isDark,
   cakePriceUsd,
-  // currentLang,
-  // langs,
-  // setLang,
+  currentLang,
+  langs,
+  setLang,
 }) => {
   if (!isPushed) {
     return (
@@ -56,14 +56,14 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
-      <SocialEntry>
+      <SettingsEntry>
+        {/* <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} /> */}
         <CakePrice cakePriceUsd={cakePriceUsd} />
+      </SettingsEntry>
+      <SocialEntry>
+        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
         <SocialLinks />
       </SocialEntry>
-      {/* <SettingsEntry>
-        <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
-      </SettingsEntry> */}
     </Container>
   );
 };
