@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.17.62 (2021-09-09)
+
+**Note:** Version bump only for package @autoshark-finance/token-lists
+
+
+
+
+
 ## 2.17.61 (2021-09-08)
 
 **Note:** Version bump only for package @autoshark-finance/token-lists
