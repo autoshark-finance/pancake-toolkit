@@ -4,7 +4,8 @@ import { CogIcon } from "../../../components/Svg";
 import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
-import CakePrice from "./CakePrice";
+import JawsPrice from "./JawsPrice";
+import FinsPrice from "./FinsPrice";
 // import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
 import LangSelector from "./LangSelector";
@@ -21,7 +22,7 @@ const Container = styled.div`
 const SettingsEntry = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: 0 8px;
 `;
@@ -29,7 +30,7 @@ const SettingsEntry = styled.div`
 const SocialEntry = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: 0 16px;
 `;
@@ -39,7 +40,8 @@ const PanelFooter: React.FC<Props> = ({
   pushNav,
   // toggleTheme,
   // isDark,
-  cakePriceUsd,
+  finsPriceUsd,
+  jawsPriceUsd,
   currentLang,
   langs,
   setLang,
@@ -58,10 +60,11 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SettingsEntry>
         {/* <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} /> */}
-        <CakePrice cakePriceUsd={cakePriceUsd} />
+        <FinsPrice finsPriceUsd={finsPriceUsd} />
+        <JawsPrice jawsPriceUsd={jawsPriceUsd} />
       </SettingsEntry>
       <SocialEntry>
-        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
+        {/* <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} /> */}
         <SocialLinks />
       </SocialEntry>
     </Container>

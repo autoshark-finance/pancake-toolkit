@@ -5,7 +5,7 @@ import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
 interface Props {
-  cakePriceUsd?: number;
+  jawsPriceUsd?: number;
 }
 
 const PriceLink = styled.a`
@@ -21,18 +21,18 @@ const PriceLink = styled.a`
   }
 `;
 
-const CakePrice: React.FC<Props> = ({ cakePriceUsd }) => {
-  return cakePriceUsd ? (
+const JawsPrice: React.FC<Props> = ({ jawsPriceUsd }) => {
+  return jawsPriceUsd ? (
     <PriceLink
       href="https://poocoin.app/tokens/0xdd97ab35e3c0820215bc85a395e13671d84ccba2"
       target="_blank"
     >
       <PancakeRoundIcon width="24px" mr="8px" />
-      <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color="textSubtle" bold>{`$${jawsPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />
   );
 };
 
-export default React.memo(CakePrice);
+export default React.memo(JawsPrice);
