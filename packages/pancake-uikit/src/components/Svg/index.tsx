@@ -34,7 +34,6 @@ export { default as CopyIcon } from "./Icons/Copy";
 export { default as CrownIcon } from "./Icons/Crown";
 export { default as ErrorIcon } from "./Icons/Error";
 export { default as EllipsisIcon } from "./Icons/Ellipsis";
-export { default as FarmIcon } from "./Icons/Farm";
 export { default as HelpIcon } from "./Icons/Help";
 export { default as HistoryIcon } from "./Icons/History";
 export { default as InfoIcon } from "./Icons/Info";
@@ -111,5 +110,6 @@ export { default as PlantIcon } from "../../widgets/Menu/icons/Plant";
 export { default as RocketIcon } from "../../widgets/Menu/icons/Rocket";
 export { default as VaultIcon } from "../../widgets/Menu/icons/Vault";
 export { default as WaveIcon } from "../../widgets/Menu/icons/Wave";
+export { default as FarmIcon } from "../../widgets/Menu/icons/Farm";
 
 export type { SvgProps } from "./types";
