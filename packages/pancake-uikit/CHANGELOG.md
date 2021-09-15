@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.42.55 (2021-09-15)
+
+
+### Bug Fixes
+
+* token prices ([e9cf7a3](https://github.com/autoshark-finance/pancake-toolkit/commit/e9cf7a374c541fa797f1bcf42b1ba61323505826))
+
+
+
+
+
 ## 0.42.54 (2021-09-09)
 
 **Note:** Version bump only for package @autoshark-finance/uikit
