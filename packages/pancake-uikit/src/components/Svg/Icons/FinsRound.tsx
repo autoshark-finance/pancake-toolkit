@@ -539,8 +539,8 @@ const Icon: React.FC<SvgProps> = (props) => {
         baseProfile="tiny-ps"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 710 709"
-        width="300"
-        height="300"
+        width="90"
+        height="90"
       >
         <title>fins-svg</title>
         <g id="#202445ff">
