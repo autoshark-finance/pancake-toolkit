@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon } from "../../../components/Svg";
+import { JawsRoundIcon } from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
@@ -27,7 +27,7 @@ const JawsPrice: React.FC<Props> = ({ jawsPriceUsd }) => {
       href="https://poocoin.app/tokens/0xdd97ab35e3c0820215bc85a395e13671d84ccba2"
       target="_blank"
     >
-      <PancakeRoundIcon width="24px" mr="8px" />
+      <JawsRoundIcon width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${jawsPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (

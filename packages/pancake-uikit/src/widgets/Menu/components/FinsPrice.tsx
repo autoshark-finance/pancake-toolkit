@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon } from "../../../components/Svg";
+import { FinsRoundIcon } from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
@@ -11,6 +11,7 @@ interface Props {
 const PriceLink = styled.a`
   display: flex;
   align-items: center;
+  margin-right: 20px;
   svg {
     transition: transform 0.3s;
   }
@@ -24,10 +25,10 @@ const PriceLink = styled.a`
 const FinsPrice: React.FC<Props> = ({ finsPriceUsd }) => {
   return finsPriceUsd ? (
     <PriceLink
-      href="https://poocoin.app/tokens/0xdd97ab35e3c0820215bc85a395e13671d84ccba2"
+      href="https://poocoin.app/tokens/0x1b219Aca875f8C74c33CFF9fF98f3a9b62fCbff5"
       target="_blank"
     >
-      <PancakeRoundIcon width="24px" mr="8px" />
+      <FinsRoundIcon width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${finsPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
