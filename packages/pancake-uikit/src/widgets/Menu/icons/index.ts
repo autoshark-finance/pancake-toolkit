@@ -24,3 +24,4 @@ export { default as TradeIcon } from "./Trade";
 export { default as TwitterIcon } from "./Twitter";
 export { default as VaultIcon } from "./Vault";
 export { default as WaveIcon } from "./Wave";
+export { default as ChartIcon } from "./Chart";
