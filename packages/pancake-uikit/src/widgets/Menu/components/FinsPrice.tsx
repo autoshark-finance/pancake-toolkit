@@ -25,7 +25,7 @@ const PriceLink = styled.a`
 const FinsPrice: React.FC<Props> = ({ finsPriceUsd }) => {
   return finsPriceUsd ? (
     <PriceLink
-      href="https://poocoin.app/tokens/0x1b219Aca875f8C74c33CFF9fF98f3a9b62fCbff5"
+      href="https://dex.guru/token/0x1b219aca875f8c74c33cff9ff98f3a9b62fcbff5-bsc"
       target="_blank"
     >
       <FinsRoundIcon width="24px" mr="8px" />
