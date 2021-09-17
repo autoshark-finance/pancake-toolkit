@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.42.58 (2021-09-17)
+
+
+### Features
+
+* charticon ([2981fb6](https://github.com/autoshark-finance/pancake-toolkit/commit/2981fb684b16b64f738c4af5b801b9bb0caecb62))
+
+
+
+
+
 ## 0.42.57 (2021-09-15)
 
 **Note:** Version bump only for package @autoshark-finance/uikit
