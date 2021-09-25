@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.63 (2021-09-25)
+
+
+### Bug Fixes
+
+* http links in menu open in new tab ([5d52956](https://github.com/autoshark-finance/pancake-toolkit/commit/5d529561a9117bb5808227459eee13962f9ef52e))
+
+
+
+
+
 ## 1.2.62 (2021-09-21)
 
 **Note:** Version bump only for package @autoshark-finance/eslint-config-pancake
