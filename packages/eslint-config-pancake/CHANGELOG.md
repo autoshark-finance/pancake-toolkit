@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.64 (2021-09-27)
+
+
+### Features
+
+* graduation cap icon ([1198950](https://github.com/autoshark-finance/pancake-toolkit/commit/1198950b32d8b7048a5a3cc531b6d0dd20542244))
+
+
+
+
+
 ## 1.2.63 (2021-09-25)
 
 
