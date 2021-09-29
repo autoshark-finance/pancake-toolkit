@@ -26,3 +26,5 @@ export { default as VaultIcon } from "./Vault";
 export { default as WaveIcon } from "./Wave";
 export { default as ChartIcon } from "./Chart";
 export { default as GraduationCapIcon } from "./GraduationCap";
+export { default as TrophyIcon } from "./Trophy";
+export { default as Trophy2Icon } from "./Trophy2";
