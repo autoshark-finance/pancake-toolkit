@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.17.75 (2021-09-29)
+
+
+### Features
+
+* trophy icons ([70b2638](https://github.com/autoshark-finance/pancake-toolkit/commit/70b26383211ca90c1f01ec2ba9a806183a71aecb))
+
+
+
+
+
 ## 2.17.74 (2021-09-29)
 
 
