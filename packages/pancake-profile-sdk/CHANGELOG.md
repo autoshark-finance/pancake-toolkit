@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.67 (2021-10-06)
+
+**Note:** Version bump only for package @autoshark-finance/profile-sdk
+
+
+
+
+
 ## 0.3.66 (2021-09-29)
 
 
