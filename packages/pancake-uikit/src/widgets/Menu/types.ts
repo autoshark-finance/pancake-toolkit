@@ -43,6 +43,7 @@ export interface PanelProps {
   toggleTheme: (isDark: boolean) => void;
   jawsPriceUsd?: number;
   finsPriceUsd?: number;
+  atlasPriceUsd?: number;
   currentLang: string;
   langs: Language[];
   setLang: (lang: Language) => void;

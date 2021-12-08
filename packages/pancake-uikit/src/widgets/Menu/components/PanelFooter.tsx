@@ -6,6 +6,7 @@ import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
 import JawsPrice from "./JawsPrice";
 import FinsPrice from "./FinsPrice";
+import AtlasPrice from "./AtlasPrice";
 // import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
 import LangSelector from "./LangSelector";
@@ -43,6 +44,7 @@ const PanelFooter: React.FC<Props> = ({
   // isDark,
   finsPriceUsd,
   jawsPriceUsd,
+  atlasPriceUsd,
   currentLang,
   langs,
   setLang,
@@ -63,6 +65,9 @@ const PanelFooter: React.FC<Props> = ({
         {/* <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} /> */}
         <FinsPrice finsPriceUsd={finsPriceUsd} />
         <JawsPrice jawsPriceUsd={jawsPriceUsd} />
+      </SettingsEntry>
+      <SettingsEntry>
+        <AtlasPrice atlasPriceUsd={atlasPriceUsd} />
       </SettingsEntry>
       <SocialEntry>
         <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />

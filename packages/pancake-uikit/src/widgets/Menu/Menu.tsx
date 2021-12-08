@@ -69,6 +69,7 @@ const Menu: React.FC<NavProps> = ({
   currentLang,
   jawsPriceUsd,
   finsPriceUsd,
+  atlasPriceUsd,
   links,
   children,
 }) => {
@@ -136,6 +137,7 @@ const Menu: React.FC<NavProps> = ({
           currentLang={currentLang}
           jawsPriceUsd={jawsPriceUsd}
           finsPriceUsd={finsPriceUsd}
+          atlasPriceUsd={atlasPriceUsd}
           pushNav={setIsPushed}
           links={links}
         />
