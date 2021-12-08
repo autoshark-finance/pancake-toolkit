@@ -1,6 +1,6 @@
 {
   "name": "@autoshark-finance/eslint-config-pancake",
-  "version": "1.2.69",
+  "version": "1.2.70",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
   "files": [
