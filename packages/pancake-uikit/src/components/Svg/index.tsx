@@ -60,6 +60,7 @@ export { default as OpenNewIcon } from "./Icons/OpenNew";
 export { default as PancakesIcon } from "./Icons/Pancakes";
 export { default as PencilIcon } from "./Icons/Pencil";
 export { default as JawsRoundIcon } from "./Icons/JawsRound";
+export { default as AtlasRoundIcon } from "./Icons/AtlasRound";
 export { default as FinsRoundIcon } from "./Icons/FinsRound";
 export { default as PocketWatchIcon } from "./Icons/PocketWatch";
 export { default as PlayCircleOutlineIcon } from "./Icons/PlayCircleOutline";

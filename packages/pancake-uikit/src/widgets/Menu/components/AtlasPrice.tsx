@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { JawsRoundIcon } from "../../../components/Svg";
+import { AtlasRoundIcon } from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
@@ -27,7 +27,7 @@ const JawsPrice: React.FC<Props> = ({ atlasPriceUsd }) => {
       href="https://poocoin.app/tokens/0xcf87ccf958d728f50d8ae5e4f15bc4ca5733cdf5"
       target="_blank"
     >
-      <JawsRoundIcon width="24px" mr="8px" />
+      <AtlasRoundIcon width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${atlasPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
