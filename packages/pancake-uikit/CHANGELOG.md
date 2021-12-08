@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.42.70 (2021-12-08)
+
+
+### Features
+
+* atlas price ([050c9de](https://github.com/autoshark-finance/pancake-toolkit/commit/050c9de306393a0dc38eb2f13b96ab9f60bf7848))
+
+
+
+
+
 ## 0.42.69 (2021-10-15)
 
 **Note:** Version bump only for package @autoshark-finance/uikit
