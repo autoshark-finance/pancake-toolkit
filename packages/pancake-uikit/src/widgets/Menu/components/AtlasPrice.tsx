@@ -24,7 +24,7 @@ const PriceLink = styled.a`
 const JawsPrice: React.FC<Props> = ({ atlasPriceUsd }) => {
   return atlasPriceUsd ? (
     <PriceLink
-      href="https://poocoin.app/tokens/0xcf87ccf958d728f50d8ae5e4f15bc4ca5733cdf5"
+      href="https://geckoterminal.com/bsc/pools/0x8ec2dcc0b88ef879c885b0b31e87aba14543a8cd"
       target="_blank"
     >
       <AtlasRoundIcon width="24px" mr="8px" />
